@@ -9,7 +9,7 @@ const custom404 = () => (
       <p>
         This page doesn't exit. Please return to{" "}
         <Link href="/">
-          <a>Home</a>
+          Home
         </Link>
       </p>
     </div>

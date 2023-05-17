@@ -1,6 +1,6 @@
-import Layout from "../components/Layout"
-
-
+import Layout from "../components/Layout";
+import { skills } from "../data/profile";
+console.log(skills);
 const index = () => (
   <Layout>
     {/* header card*/}
@@ -26,6 +26,36 @@ const index = () => (
         </div>
       </div>
     </header>
+    {/*Second section*/}
+    <div className="row py-2">
+      <div className="col-md-4">
+        <div className="card bg-light">
+          <div className="card-body">
+            <h1>Skills</h1>
+
+            {skills?.map((s) => (
+              <>
+                <h5>{s.skill}</h5>
+                <div className="progress">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width:` ${s.percentage}% `}}
+                  ></div>
+                </div>
+              </>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="col-md-8">
+        <div className="card bg-light">
+          <div className="card-body">
+            <h1>Experience</h1>
+          </div>
+        </div>
+      </div>
+    </div>
   </Layout>
 );
 
