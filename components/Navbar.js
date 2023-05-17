@@ -2,11 +2,11 @@ import Link from "next/link";
 
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark-tertiary">
-    <div className="container-fluid">
-    <Link href="/index">
-            <a className="nav-link active" aria-current="page" >
+    <div className="container">
+    <Link href="/" className="nav-link active" aria-current="page">
+            
               Mariano Villaescusa
-            </a>
+            
             </Link>
       <button
         className="navbar-toggler"
@@ -22,24 +22,24 @@ const Navbar = () => (
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link href="/index">
-            <a className="nav-link active" aria-current="page" >
+            <Link href="/" className="nav-link active" aria-current="page">
+            
               Home
-            </a>
+            
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/about">
-            <a className="nav-link" >
+            <Link href="/about" className="nav-link">
+            
               About
-            </a>
+            
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/projects">
-            <a className="nav-link">
+            <Link href="/projects" className="nav-link">
+            
               Projects
-            </a>
+            
             </Link>
           </li>
         </ul>
