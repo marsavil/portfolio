@@ -6,7 +6,7 @@ const projects = () => (
   <Layout>
     <div className="row">
       <div className="col-md-12">
-        <div className="card card-body bg-dark">
+        <div className="card card-body bg-light">
           <div className="row">
             <div className="col-md-12">
               <h1 className="text-center text-light">Projects</h1>

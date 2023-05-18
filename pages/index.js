@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import { skills } from "../data/profile";
-console.log(skills);
+
 const index = () => (
   <Layout>
     {/* header card*/}
@@ -15,10 +15,10 @@ const index = () => (
               <h1>Mariano Salvador Villaescusa</h1>
               <h3>Fullstack Developer</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                cupiditate odit cumque reiciendis qui quae labore quos, ad
-                repudiandae libero adipisci id a non fugit suscipit perspiciatis
-                at reprehenderit. Autem!
+                My name is Mariano Villaescusa, I am a Full Stack Developer
+                graduated from soyHenry and currently a student in the
+                Bachelor's Degree in Programming at the National University of
+                Quilmes.
               </p>
               <a href="/hireme">Hire me</a>
             </div>
@@ -40,7 +40,7 @@ const index = () => (
                   <div
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width:` ${s.percentage}% `}}
+                    style={{ width: ` ${s.percentage}% ` }}
                   ></div>
                 </div>
               </>
