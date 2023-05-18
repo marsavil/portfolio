@@ -9,7 +9,7 @@ const index = () => (
         <div className="card card-body bg-secondary">
           <div className="row">
             <div className="col-md-4">
-              <img src="profile.jpeg" alt="" className="img-fluid"></img>
+              <img src="profile.jpeg" alt="" className="img-fluid" style={{borderRadius:"15px"}}></img>
             </div>
             <div className="col-md-8">
               <h1>Mariano Salvador Villaescusa</h1>
@@ -20,7 +20,7 @@ const index = () => (
                 Bachelor's Degree in Programming at the National University of
                 Quilmes.
               </p>
-              <a href="/contact">Contact me</a>
+              <a href="/contact" style={{textDecoration:"none"}}>Contact me</a>
             </div>
           </div>
         </div>
