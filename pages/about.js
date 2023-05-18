@@ -2,8 +2,11 @@ import Layout from "../components/Layout";
 
 const aboutMe = () => (
   <Layout>
+    <div className="card card-body bg-secondary" >
     <h1>About Me</h1>
-    <section className="row py-4">
+    </div>
+
+    <section className="col-md-12 card card-body bg-light" style={{padding: "40px"}}>
       <h5 className="text-dark">
         My name is Mariano Villaescusa, I am a Full Stack Developer graduated from soyHenry and currently a
         student in the Bachelor's Degree in Programming at the National

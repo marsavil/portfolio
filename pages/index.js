@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { skills } from "../data/profile";
+import { skills, experience } from "../data/profile";
 
 const index = () => (
   <Layout>
@@ -20,7 +20,7 @@ const index = () => (
                 Bachelor's Degree in Programming at the National University of
                 Quilmes.
               </p>
-              <a href="/hireme">Hire me</a>
+              <a href="/contact">Contact me</a>
             </div>
           </div>
         </div>
@@ -32,7 +32,6 @@ const index = () => (
         <div className="card bg-light">
           <div className="card-body">
             <h1>Skills</h1>
-
             {skills?.map((s) => (
               <>
                 <h5>{s.skill}</h5>
@@ -52,6 +51,20 @@ const index = () => (
         <div className="card bg-light">
           <div className="card-body">
             <h1>Experience</h1>
+            <ul>
+
+            </ul>
+            {experience?.map((e) => (
+              <li style={{ fontSize: "20px", color: "whitesmoke" }}>{e.institution}
+                <div style={{padding:"15px"}}>
+                  <h6 className="text-dark">{e.description}</h6>
+                  <h6 className="text-dark">{`from ${e.from} to ${e.to}`}</h6>
+                </div>
+
+                <div >
+                </div>
+              </li>
+            ))}
           </div>
         </div>
       </div>
