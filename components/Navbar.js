@@ -11,27 +11,27 @@ const Navbar = () => (
           <ul className="navbar-nav">
             <li className="nav-item" >
               <Link legacyBehavior href={"/"}>
-                <a className="nav-link active" aria-current="page" style={{color: "whitesmoke"}}>Home</a>
+                <a className="nav-link active" aria-current="page" style={{color: "whitesmoke", fontSize: "25px"}}>Home</a>
               </Link>
             </li>
             <li className="nav-item">
               <Link legacyBehavior href="/about">
-                <a className="nav-link" style={{color: "whitesmoke"}}>About</a>
+                <a className="nav-link" style={{color: "whitesmoke", fontSize: "25px"}}>About</a>
               </Link>
             </li>
             <li className="nav-item">
               <Link legacyBehavior href="/education">
-                <a className="nav-link" style={{color: "whitesmoke"}}>Education</a>
+                <a className="nav-link" style={{color: "whitesmoke", fontSize: "25px"}}>Education</a>
               </Link>
             </li>
             <li className="nav-item">
               <Link legacyBehavior href={"/projects"}>
-                <a className="nav-link" style={{color: "whitesmoke"}}>Projects</a>
+                <a className="nav-link" style={{color: "whitesmoke", fontSize: "25px"}}>Projects</a>
               </Link>
             </li>
             <li className="nav-item" >
               <Link legacyBehavior href={"/contact"}>
-                <a className="nav-link" style={{color: "whitesmoke"}}>Contact</a>
+                <a className="nav-link" style={{color: "whitesmoke", fontSize: "25px"}}>Contact</a>
               </Link>
             </li>
           </ul>

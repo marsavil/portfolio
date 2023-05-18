@@ -1,10 +1,10 @@
 import Layout from "../components/Layout"
 const education = () => (
   <Layout>
-    <div className="card card-body bg-secondary" >
+    <div className="card card-body bg-secondary" style={{marginBottom:"5px"}} >
       <h1>Education</h1>
     </div>
-    <div className="row">
+    <div className="row" style={{marginBottom:"5px"}}>
       <div className="col-md-12">
         <div className="card card-body bg-light">
           <div className="row">
