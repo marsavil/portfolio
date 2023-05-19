@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const Navbar = () => (
-
+<div className="container">
   <nav className="navbar navbar-expand-lg bg-light-tertiary">
       <div className="container-fluid">
         <button className="navbar-toggler"
@@ -14,10 +14,10 @@ const Navbar = () => (
           <span className="navbar-toggler-icon bg-dark"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 navbar__links">
             <li className="nav-item" >
               <Link legacyBehavior href={"/"}>
-                <a className="nav-link active text-dark" aria-current="page" >Home</a>
+                <a className="nav-link text-dark" aria-current="page" >Home</a>
               </Link>
             </li>
             <li className="nav-item">
@@ -44,6 +44,7 @@ const Navbar = () => (
         </div>
     </div>
   </nav>
+  </div>
 );
 
 export default Navbar;
