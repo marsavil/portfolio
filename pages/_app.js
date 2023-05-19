@@ -1,10 +1,16 @@
 import 'bootswatch/dist/cyborg/bootstrap.min.css'
 import { useEffect } from 'react';
+import { Container } from 'react-bootstrap';
 
 
 export default function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    import('bootstrap/dist/js/bootstrap.bundle.min.js');
+    
   }, [])
-  return <Component {...pageProps} />;
+  return (
+<Container>
+  <Component {...pageProps} />
+</Container>
+
+  )
 }
