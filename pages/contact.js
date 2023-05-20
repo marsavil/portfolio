@@ -15,9 +15,8 @@ const contact = () => {
       toast.info(
         "Message sent successfully"
       );
-      setTimeout(() => {
-        router.push('/')
-      }, 5000);
+      
+      router.push('/')
 
     })}
     console.log(form.current)
