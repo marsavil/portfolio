@@ -15,11 +15,11 @@ const contact = () => {
       toast.info(
         "Message sent successfully"
       );
-      
-      router.push('/')
-
-    })}
+    })
+    router.push('/')
     console.log(form.current)
+  }
+    
 
 return(
   <Layout>
