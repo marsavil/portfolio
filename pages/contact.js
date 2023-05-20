@@ -16,10 +16,9 @@ const contact = () => {
         "Message sent successfully"
       );
     })
-    setTimeout(() => {
+    .then(setTimeout(() => {
       router.push('/')
-    }, 10000);
-    console.log(form.current)
+    }, 10000));
   }
     
 
