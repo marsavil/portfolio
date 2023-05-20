@@ -18,7 +18,7 @@ const contact = () => {
     })
     setTimeout(() => {
       router.push('/')
-    }, 3000);
+    }, 10000);
     console.log(form.current)
   }
     
