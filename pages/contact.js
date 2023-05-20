@@ -9,9 +9,9 @@ import "react-toastify/dist/ReactToastify.css";
 const contact = () => {
   const form = useRef()
   const router = useRouter();
-  function sendEmail(e){
+  async function sendEmail(e){
     e.preventDefault();
-    emailjs.sendForm("service_cgr3v0q", "template_har759e", form.current, "NQWsussD8kfN-i9Nz").then(res => {
+    await emailjs.sendForm("service_cgr3v0q", "template_har759e", form.current, "NQWsussD8kfN-i9Nz").then(res => {
       toast.info(
         "Message sent successfully"
       );
