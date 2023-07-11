@@ -46,7 +46,7 @@ export const experience = [
 {
   institution: "Freelance",
   description: "Development of a Backend designed to manage users and created on javascript and node js through express and sequelze .",
-  from:"June 223",
+  from:"June 2023",
   to: "July 2023"
 }
 ]
